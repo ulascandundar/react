@@ -5,3 +5,7 @@ export default class JobPositionService{
         return axios.get("http://localhost:8080/api/jobposition/getAll")
     }
 }
+
+
+a
+dsasdasasddas
