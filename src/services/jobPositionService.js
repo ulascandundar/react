@@ -6,6 +6,3 @@ export default class JobPositionService{
     }
 }
 
-
-a
-dsasdasasddas
