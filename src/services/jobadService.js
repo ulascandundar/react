@@ -8,3 +8,4 @@ export default class JobadService{
         return axios.post("http://localhost:8080/api/jobAdvertisements/add",values)
     }
 }
+//asdasas
