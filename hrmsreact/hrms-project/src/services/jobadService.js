@@ -5,3 +5,5 @@ export default class JobadService{
         return axios.get("http://localhost:8080/api/jobAdvertisements/getAll")
     }
 }
+
+////asdaadsasdsad
