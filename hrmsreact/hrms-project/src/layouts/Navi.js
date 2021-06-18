@@ -1,6 +1,8 @@
 import React from "react";
 import { Button, Icon, Menu } from "semantic-ui-react";
 import { Container } from "semantic-ui-react";
+import SignedOut from "../layouts/SignedOut";
+import SignedIn from "../layouts/SignedIn";
 
 export default function Navi() {
   return (
@@ -23,13 +25,8 @@ export default function Navi() {
               </Dropdown.Menu>
             </Dropdown> */}
 
-            <Menu.Item>
-              <Button.Group>
-                <Button primary>Sign Up</Button>
-                <Button.Or />
-                <Button positive>Sign In</Button>
-              </Button.Group>
-            </Menu.Item>
+            <SignedOut></SignedOut>
+            <SignedIn></SignedIn>      
           </Menu.Menu>
         </Container>
       </Menu>
